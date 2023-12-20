@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct PhysicalActivityAppApp: App {
+    @StateObject var manager = HealthManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabViewPAapp()
+                .environmentObject(manager)
         }
     }
 }

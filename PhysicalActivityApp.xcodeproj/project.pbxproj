@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		71725D1A2B329B7B00180B18 /* PhysicalActivityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D192B329B7B00180B18 /* PhysicalActivityAppApp.swift */; };
 		71725D1C2B329B7B00180B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D1B2B329B7B00180B18 /* ContentView.swift */; };
-		71725D1E2B329B7C00180B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71725D1D2B329B7C00180B18 /* Assets.xcassets */; };
-		71725D212B329B7C00180B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71725D202B329B7C00180B18 /* Preview Assets.xcassets */; };
-		71725D2B2B329B7D00180B18 /* PhysicalActivityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D2A2B329B7D00180B18 /* PhysicalActivityAppTests.swift */; };
-		71725D352B329B7D00180B18 /* PhysicalActivityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D342B329B7D00180B18 /* PhysicalActivityAppUITests.swift */; };
-		71725D372B329B7D00180B18 /* PhysicalActivityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D362B329B7D00180B18 /* PhysicalActivityAppUITestsLaunchTests.swift */; };
+		71725D442B329C3000180B18 /* TabViewPAapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D432B329C3000180B18 /* TabViewPAapp.swift */; };
+		71725D462B329D0800180B18 /* HomeViewPAapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D452B329D0800180B18 /* HomeViewPAapp.swift */; };
+		71725D482B32A0A000180B18 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D472B32A0A000180B18 /* ActivityCard.swift */; };
+		71725D4A2B32A5CA00180B18 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D492B32A5CA00180B18 /* HealthManager.swift */; };
+		71725D4D2B3376E200180B18 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71725D4C2B3376E200180B18 /* ChartsView.swift */; };
+		71725D572B339A5B00180B18 /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71725D562B339A5B00180B18 /* AppIcon.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71725D162B329B7B00180B18 /* PhysicalActivityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicalActivityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71725D162B329B7B00180B18 /* Stepsick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stepsick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71725D192B329B7B00180B18 /* PhysicalActivityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalActivityAppApp.swift; sourceTree = "<group>"; };
 		71725D1B2B329B7B00180B18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		71725D1D2B329B7C00180B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		71725D202B329B7C00180B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71725D262B329B7D00180B18 /* PhysicalActivityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicalActivityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71725D2A2B329B7D00180B18 /* PhysicalActivityAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalActivityAppTests.swift; sourceTree = "<group>"; };
 		71725D302B329B7D00180B18 /* PhysicalActivityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicalActivityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71725D342B329B7D00180B18 /* PhysicalActivityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalActivityAppUITests.swift; sourceTree = "<group>"; };
-		71725D362B329B7D00180B18 /* PhysicalActivityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalActivityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71725D432B329C3000180B18 /* TabViewPAapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewPAapp.swift; sourceTree = "<group>"; };
+		71725D452B329D0800180B18 /* HomeViewPAapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPAapp.swift; sourceTree = "<group>"; };
+		71725D472B32A0A000180B18 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		71725D492B32A5CA00180B18 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		71725D4B2B32A87300180B18 /* PhysicalActivityApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhysicalActivityApp.entitlements; sourceTree = "<group>"; };
+		71725D4C2B3376E200180B18 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		71725D562B339A5B00180B18 /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				71725D182B329B7B00180B18 /* PhysicalActivityApp */,
-				71725D292B329B7D00180B18 /* PhysicalActivityAppTests */,
-				71725D332B329B7D00180B18 /* PhysicalActivityAppUITests */,
 				71725D172B329B7B00180B18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +85,7 @@
 		71725D172B329B7B00180B18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71725D162B329B7B00180B18 /* PhysicalActivityApp.app */,
+				71725D162B329B7B00180B18 /* Stepsick.app */,
 				71725D262B329B7D00180B18 /* PhysicalActivityAppTests.xctest */,
 				71725D302B329B7D00180B18 /* PhysicalActivityAppUITests.xctest */,
 			);
@@ -94,9 +95,11 @@
 		71725D182B329B7B00180B18 /* PhysicalActivityApp */ = {
 			isa = PBXGroup;
 			children = (
+				71725D4E2B33969A00180B18 /* Model */,
+				71725D4F2B3396B400180B18 /* VIew */,
+				71725D502B3396CB00180B18 /* ViewModel */,
+				71725D4B2B32A87300180B18 /* PhysicalActivityApp.entitlements */,
 				71725D192B329B7B00180B18 /* PhysicalActivityAppApp.swift */,
-				71725D1B2B329B7B00180B18 /* ContentView.swift */,
-				71725D1D2B329B7C00180B18 /* Assets.xcassets */,
 				71725D1F2B329B7C00180B18 /* Preview Content */,
 			);
 			path = PhysicalActivityApp;
@@ -105,26 +108,36 @@
 		71725D1F2B329B7C00180B18 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				71725D202B329B7C00180B18 /* Preview Assets.xcassets */,
+				71725D562B339A5B00180B18 /* AppIcon.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		71725D292B329B7D00180B18 /* PhysicalActivityAppTests */ = {
+		71725D4E2B33969A00180B18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				71725D2A2B329B7D00180B18 /* PhysicalActivityAppTests.swift */,
+				71725D472B32A0A000180B18 /* ActivityCard.swift */,
 			);
-			path = PhysicalActivityAppTests;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		71725D332B329B7D00180B18 /* PhysicalActivityAppUITests */ = {
+		71725D4F2B3396B400180B18 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				71725D342B329B7D00180B18 /* PhysicalActivityAppUITests.swift */,
-				71725D362B329B7D00180B18 /* PhysicalActivityAppUITestsLaunchTests.swift */,
+				71725D1B2B329B7B00180B18 /* ContentView.swift */,
+				71725D432B329C3000180B18 /* TabViewPAapp.swift */,
+				71725D452B329D0800180B18 /* HomeViewPAapp.swift */,
+				71725D4C2B3376E200180B18 /* ChartsView.swift */,
 			);
-			path = PhysicalActivityAppUITests;
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		71725D502B3396CB00180B18 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71725D492B32A5CA00180B18 /* HealthManager.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +157,7 @@
 			);
 			name = PhysicalActivityApp;
 			productName = PhysicalActivityApp;
-			productReference = 71725D162B329B7B00180B18 /* PhysicalActivityApp.app */;
+			productReference = 71725D162B329B7B00180B18 /* Stepsick.app */;
 			productType = "com.apple.product-type.application";
 		};
 		71725D252B329B7D00180B18 /* PhysicalActivityAppTests */ = {
@@ -190,6 +203,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
@@ -231,8 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71725D212B329B7C00180B18 /* Preview Assets.xcassets in Resources */,
-				71725D1E2B329B7C00180B18 /* Assets.xcassets in Resources */,
+				71725D572B339A5B00180B18 /* AppIcon.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71725D4D2B3376E200180B18 /* ChartsView.swift in Sources */,
+				71725D462B329D0800180B18 /* HomeViewPAapp.swift in Sources */,
+				71725D4A2B32A5CA00180B18 /* HealthManager.swift in Sources */,
+				71725D442B329C3000180B18 /* TabViewPAapp.swift in Sources */,
 				71725D1C2B329B7B00180B18 /* ContentView.swift in Sources */,
 				71725D1A2B329B7B00180B18 /* PhysicalActivityAppApp.swift in Sources */,
+				71725D482B32A0A000180B18 /* ActivityCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71725D2B2B329B7D00180B18 /* PhysicalActivityAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71725D372B329B7D00180B18 /* PhysicalActivityAppUITestsLaunchTests.swift in Sources */,
-				71725D352B329B7D00180B18 /* PhysicalActivityAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,12 +436,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhysicalActivityApp/PhysicalActivityApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhysicalActivityApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RFXK7CBJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all the features of our application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -436,7 +455,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "YoungSkateBastard-s.PhysicalActivityApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Stepsick;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,12 +467,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhysicalActivityApp/PhysicalActivityApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhysicalActivityApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5RFXK7CBJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please allow access to enjoy all the features of our application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,7 +486,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "YoungSkateBastard-s.PhysicalActivityApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Stepsick;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
